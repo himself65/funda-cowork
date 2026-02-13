@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+@plugin "tailwindcss-animate";
+
+@layer base {
+  :root {
+    --background: 230 20% 5%;
+    --foreground: 240 5% 90%;
+    --card: 228 18% 8%;
+    --card-foreground: 240 5% 90%;
+    --popover: 228 18% 8%;
+    --popover-foreground: 240 5% 90%;
+    --primary: 239 84% 67%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 230 15% 12%;
+    --secondary-foreground: 240 5% 90%;
+    --muted: 230 15% 12%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 239 84% 67%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 14% 18%;
+    --input: 230 14% 18%;
+    --ring: 239 84% 67%;
+    --chart-1: 142 71% 45%;
+    --chart-2: 217 91% 60%;
+    --chart-3: 39 92% 65%;
+    --chart-4: 271 81% 56%;
+    --chart-5: 0 84% 60%;
+    --radius: 0.75rem;
+    --sidebar-background: 228 18% 8%;
+    --sidebar-foreground: 240 5% 90%;
+    --sidebar-primary: 239 84% 67%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 230 15% 12%;
+    --sidebar-accent-foreground: 240 5% 90%;
+    --sidebar-border: 230 14% 18%;
+    --sidebar-ring: 239 84% 67%;
+    --success: 142 71% 45%;
+    --warning: 39 92% 65%;
+    --info: 217 91% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

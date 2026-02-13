@@ -1,0 +1,9 @@
+{
+  "name": "cc-sandbox-monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}
