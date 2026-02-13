@@ -1,6 +1,5 @@
 {
-  "name": "fundaai-workflow",
-  "packageManager": "pnpm@10.29.3",
+  "name": "funda-cowork",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",

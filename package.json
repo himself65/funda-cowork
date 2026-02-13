@@ -1,5 +1,5 @@
 {
-  "name": "cc-sandbox-monorepo",
+  "name": "funda-cowork-monorepo",
   "private": true,
   "packageManager": "pnpm@10.29.3",
   "devDependencies": {
